@@ -1,0 +1,39 @@
+
+#animation { 
+	#opacity: .90;
+	zoom: 3.3;
+	background-color: rgba(255,255,255,.3);
+    /* background-image: url(../img/preloader-bg.png_norm.png.webp); */
+    background-repeat: no-repeat; 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 600px;
+	height: 400px; 
+	overflow: hidden;
+ 	/*transition: visibility 0.5s 0.9s, opacity 0.9s linear;*/
+}
+
+
+
+
+@-webkit-keyframes #animation {
+	0%,100%,60% {
+		background-color: rgba(255,255,255,.3)
+	}
+
+	30% {
+		background-color: rgba(255,255,255,.3)
+	}
+}
+
+@keyframes #animation {
+	0%,100%,60% {
+		background-color: rgba(255,255,255,.3)
+	}
+
+	30% {
+		background-color: rgba(201,59,45,.3)
+	}
+}

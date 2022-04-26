@@ -1,0 +1,31 @@
+a {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+
+
+h3 {  font-family: Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; margin-top: 10px; margin-left: 10px}
+
+
+
+.text {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; margin-right: 10px; margin-bottom: 10px; margin-left: 10px}
+
+
+
+ul {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+
+
+a:link {  color: #0000FF; text-decoration: none }
+a:visited { text-decoration: none }
+a:bb:hover { color: #0000FF; text-decoration: underline }
+
+
+h4 {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; margin-left: 10px}
+
+
+
+td {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; left: 10px; clip:  rect(   )}
+
+
+
+th {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; text-align: left}
+
