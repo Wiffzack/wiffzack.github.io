@@ -24,3 +24,5 @@ function InitMap() {
         }
     }(c, a))
 };
+
+InitMap()
