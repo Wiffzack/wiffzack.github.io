@@ -2,9 +2,7 @@ function getCookie(b) {
     b = ("; " + document.cookie).split("; " + b + "=");
     if (2 == b.length) return b.pop().split(";").shift()
 }
-for (var locations = Array(arrayObjects.length), i = 0; i < locations.length; i++) locations[i] = Array(2);
-for (i = 0; i < arrayObjects.length; i++) locations[i][0] = arrayObjects[i.toString()].lat, locations[i][1] = arrayObjects[i.toString()].lng;
-InitMap();
+
 
 function InitMap() {
     var b = new google.maps.Map(document.getElementById("map"), {
@@ -24,5 +22,6 @@ function InitMap() {
         }
     }(c, a))
 };
-
-InitMap()
+for (var locations = Array(arrayObjects.length), i = 0; i < locations.length; i++) locations[i] = Array(2);
+for (i = 0; i < arrayObjects.length; i++) locations[i][0] = arrayObjects[i.toString()].lat, locations[i][1] = arrayObjects[i.toString()].lng;
+InitMap();
