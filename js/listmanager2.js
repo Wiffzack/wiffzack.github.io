@@ -10,7 +10,14 @@ var shoppinglist = [];
 
 person=getCookie("share");
 
+try {
 jsonlist = JSON.parse(decodeURIComponent(getCookie("list")))["0"][""];
+}
+catch (e) {
+   console.log(e);
+}
+
+
 // text.split(',')
 cache  = jsonlist.split(',');
 for (i = 0; i < cache.length; i++) {
