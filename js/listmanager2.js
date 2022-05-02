@@ -34,19 +34,19 @@ function getCookie(name) {
   if (parts.length == 2) return parts.pop().split(";").shift();
 }
 
-function setshoppinglist(position) {
+function setshoppinglist() {
 	xmlhttp=new XMLHttpRequest();
-	xmlhttp.open("GET","https://192.168.0.21:8443/setshopping.php",true);
+	xmlhttp.open("GET","http:/wiffzack.42web.io/setshopping.php",true);
 	xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-	xmlhttp.timeout = 5000;
+	//xmlhttp.timeout = 5000;
 	xmlhttp.send();
 }
 
 function getshopinglist() {
 	xmlhttp=new XMLHttpRequest();
-	xmlhttp.open("GET","https://192.168.0.21:8443/setshopping.php",true);
+	xmlhttp.open("GET","http://wiffzack.42web.io/getshopping.php",true);
 	xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-	xmlhttp.timeout = 5000;
+	//xmlhttp.timeout = 5000;
 	xmlhttp.send();
 	}		
 
