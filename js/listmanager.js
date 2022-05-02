@@ -45,7 +45,7 @@ function getCookie(name) {
 
 function setshoppinglist() {
 	xmlhttp=new XMLHttpRequest();
-	xmlhttp.open("GET","http://wiffzack.42web.io//setshopping.php",true);
+	xmlhttp.open("GET","http:/wiffzack.42web.io/setshopping.php",true);
 	xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	//xmlhttp.timeout = 5000;
 	xmlhttp.send();
@@ -53,7 +53,7 @@ function setshoppinglist() {
 
 function getshopinglist() {
 	xmlhttp=new XMLHttpRequest();
-	xmlhttp.open("GET","http://wiffzack.42web.io/setshopping.php",true);
+	xmlhttp.open("GET","http://wiffzack.42web.io/getshopping.php",true);
 	xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	//xmlhttp.timeout = 5000;
 	xmlhttp.send();
